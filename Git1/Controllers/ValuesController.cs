@@ -10,7 +10,7 @@ namespace Git1.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        // GET api/values// comment1
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
